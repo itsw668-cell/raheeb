@@ -274,4 +274,4 @@ def block_sensitive():
 
 if __name__ == '__main__':
     # debug=False في الإنتاج
-    app.run(debug=False, port=5000, host='127.0.0.1')
+    app.run(debug=False, port=5000, host='0.0.0.0')
