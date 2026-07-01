@@ -22,7 +22,7 @@ db = SQLAlchemy(app)
 
 # ════ ADMIN CREDENTIALS ════
 # كلمة المرور محفوظة كـ Hash وليس نصاً عادياً
-ADMIN_USER      = 'raheeb'
+ADMIN_USER      = 'raheeb2026'
 ADMIN_PASS_HASH = hashlib.sha256('raheeb2026'.encode()).hexdigest()
 
 # ════ RATE LIMITING (الحماية من السبام) ════
